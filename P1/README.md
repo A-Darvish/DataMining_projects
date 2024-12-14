@@ -17,6 +17,13 @@ This part introduces basic data mining workflows, focusing on:
 This part delves into advanced data mining topics, including:
 - Feature engineering for better model performance.
 - Data transformation techniques to improve compatibility with algorithms.
+- **Regression Models**: Linear and Polynomial regression for population prediction.
+- **Classification Models**: Decision Tree, Random Forest, KNN, SVM (Linear and Non-linear).
+- **Evaluation Metrics**: Mean Squared Error (MSE), Accuracy, Precision, Recall.
+
+## Dataset
+- Source: `worldcities.xlsx`.
+- Features: City names, population, and additional demographic attributes.
 
 **Key Features**:
 - Advanced visualizations for insights.
@@ -50,3 +57,7 @@ This part delves into advanced data mining topics, including:
 2. Open and execute the cells in:
    - `DM_P1_part1.ipynb` for Practice 1.1.
    - `DM_P1_part2.ipynb` for Practice 1.2.
+   
+## Results
+- Polynomial regression achieved better accuracy for higher-degree relationships.
+- Non-linear SVM outperformed other classifiers for population level prediction.

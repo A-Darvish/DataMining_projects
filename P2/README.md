@@ -11,7 +11,18 @@ This project demonstrates:
 ## Key Features
 - Supervised learning: Classification models.
 - Unsupervised learning: Clustering techniques.
-- Model evaluation and visualization.
+- **Algorithms Used**:
+  - Support Vector Machines (SVM)
+  - Bayesian Networks
+  - K-Nearest Neighbors (KNN)
+  - Random Forest
+- **Hyperparameter Tuning**: GridSearchCV for systematic hyperparameter optimization.
+- **Evaluation Metrics**: Accuracy, Precision, Recall, F1-Score.
+
+## Dataset
+- The dataset is preprocessed and split into training and testing sets.
+- Features include categorical and numerical attributes, one-hot encoded for model compatibility.
+
 
 ## Prerequisites
 - Python 3.7+
@@ -39,3 +50,12 @@ This project demonstrates:
    jupyter notebook
    ```
 2. Execute the cells in `DM_P2.ipynb` sequentially.
+
+## Results
+- SVM achieved the highest precision and recall with tuned hyperparameters.
+- KNN with an optimized number of neighbors provided competitive accuracy.
+- Random Forest showed robust performance, especially in handling complex datasets.
+
+
+## Insights
+This project demonstrates the importance of hyperparameter tuning and model selection for different types of data. It serves as a guide for choosing the best algorithms based on project requirements.

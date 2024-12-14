@@ -9,9 +9,19 @@ This project implements a complete data mining workflow, including:
 - Preparing the pipeline for deployment-ready insights.
 
 ## Key Features
-- Comprehensive data preprocessing pipeline.
-- Hyperparameter tuning for model optimization.
-- Documentation and insights for deployment.
+- **Clustering Techniques**:
+  - K-Means Clustering (optimal `k` determined using the Elbow method).
+  - DBSCAN for density-based clustering.
+- **Association Rules**:
+  - Apriori Algorithm for mining frequent itemsets and discovering rules in transactional datasets.
+- **Evaluation Metrics**:
+  - Silhouette Score for clustering validation.
+  - Support, Confidence, and Lift for association rules.
+
+## Datasets
+1. `Country-data.csv`: Includes country-level statistics.
+2. `Grocery-store.csv`: Contains transactional data for association rule mining.
+
 
 ## Prerequisites
 - Python 3.7+
@@ -39,3 +49,15 @@ This project implements a complete data mining workflow, including:
    jupyter notebook
    ```
 2. Execute the cells in `DM_P3.ipynb` sequentially.
+
+## Results
+- **Clustering**:
+  - K-Means with `k=4` and PCA provided compact clusters.
+  - DBSCAN captured density-based clusters but required parameter tuning.
+- **Association Rules**:
+  - Top 3 frequent itemsets were identified with strong support and confidence values.
+  - Rules such as "If Milk and Bread, then Biscuit" were extracted for decision-making.
+
+
+## Insights
+The project highlights the power of unsupervised learning techniques for exploratory data analysis. Clustering methods and association rules are particularly useful for understanding patterns in large datasets.
